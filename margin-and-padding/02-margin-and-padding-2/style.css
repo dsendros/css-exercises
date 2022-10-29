@@ -1,6 +1,5 @@
 /*
 TODO: Make button-container and button block display elements
-TODO: Add padding to title
 TODO: Add padding to content
 TODO: Center button container text
 TODO: Center button
@@ -22,6 +21,7 @@ body {
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
 }
 
 .content {
