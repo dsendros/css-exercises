@@ -1,5 +1,4 @@
 /* 
-TODO: Change padding and margins on div one to match image
 TODO: Change padding and margins on div three to match image
 */
 
@@ -12,8 +11,8 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 30px;
+  margin: 13px;
 }
 
 .two {
