@@ -1,7 +1,3 @@
-/*
-TODO: Reduce top and bottom card padding
-*/
-
 body {
   background: #eee;
   font-family: sans-serif;
@@ -17,7 +13,7 @@ body {
 .title {
   background: #e3f4ff;
   padding: 10px;
-  margin: 10px 0px;
+  margin: 0px 0px 10px;
 }
 
 .content {
@@ -28,7 +24,7 @@ body {
 
 .button-container {
   background: #e3f4ff;
-  margin: 10px 0px;
+  margin: 10px 0px 0px;
   text-align: center;
   padding: 10px;
 }
