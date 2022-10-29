@@ -1,7 +1,3 @@
-/* 
-TODO: Change padding and margins on div three to match image
-*/
-
 body {
   max-width: 600px;
   margin: 0 auto;
@@ -27,6 +23,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 30px;
+  margin-left: 334px;
 }
