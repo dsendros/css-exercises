@@ -1,5 +1,4 @@
 /*
-TODO: Add padding to card
 TODO: Make button-container and button block display elements
 TODO: Add padding to title
 TODO: Add padding to content
@@ -18,6 +17,7 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 10px;
 }
 
 .title {
