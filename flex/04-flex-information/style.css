@@ -18,6 +18,11 @@ img {
   font-weight: 900;
 }
 
+.plants {
+  display: flex;
+  flex-direction: row;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
