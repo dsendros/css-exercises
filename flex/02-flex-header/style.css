@@ -1,3 +1,11 @@
+/*
+TODO: Change alignment of flexbox to horizontal
+TODO: Center .logo
+TODO: Bunch .left-links and .right-links at either side
+TODO: Make things flex properly
+TODO: Get padding right
+*/
+
 .header  {
   font-family: monospace;
   background: papayawhip;
