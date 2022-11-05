@@ -1,5 +1,4 @@
 /*
-TODO: Change alignment of flexbox to horizontal
 TODO: Center .logo
 TODO: Bunch .left-links and .right-links at either side
 TODO: Make things flex properly
@@ -11,6 +10,7 @@ TODO: Get padding right
   background: papayawhip;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo {
