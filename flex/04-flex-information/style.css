@@ -1,5 +1,4 @@
 /*
-  TODO: Narrow text width
   TODO: Center plant/text combos
   TODO: Put padding/margins around plant/text combos
 */
@@ -23,6 +22,10 @@ img {
 .plants {
   display: flex;
   flex-direction: row;
+}
+
+.text {
+  width: 200px;
 }
 
 /* do not edit this footer */
