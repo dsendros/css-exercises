@@ -1,10 +1,3 @@
-/*
-TODO: Center .logo
-TODO: Bunch .left-links and .right-links at either side
-TODO: Make things flex properly
-TODO: Get padding right
-*/
-
 .header  {
   font-family: monospace;
   background: papayawhip;
@@ -13,12 +6,20 @@ TODO: Get padding right
   justify-content: space-between;
 }
 
+.right-links,
+.left-links {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px 0px;
 }
 
 ul {
@@ -26,6 +27,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  padding: 0px;
 }
 
 a {
@@ -34,4 +36,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 8px;
 }
