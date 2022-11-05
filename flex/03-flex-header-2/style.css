@@ -2,6 +2,12 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+/*
+TODO: Put everything in a row
+TODO: Space-between .logo/.links and .notifications/.profile-image
+TODO: Check padding/margins are good
+*/
+
 body {
   margin: 0;
   background: #eee;
