@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /*
-  TODO: Push footer to bottom; content to center
-  TODO: Style links, bullets, header, footer properly
   TODO: Style buttons properly
 */
 
@@ -29,6 +27,16 @@ body {
 .footer .right-links {
   display: flex;
   flex-direction: row;
+  list-style: none;
+  font-size: 10pt;
+  color: grey;
+  padding: 0px 8px;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #636363;
 }
 
 .content {
@@ -54,4 +62,8 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.footer {
+  background-color: #ededed;
 }
