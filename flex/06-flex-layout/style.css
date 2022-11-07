@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /*
-  TODO: Align content properly
   TODO: Style links, bullets, header, footer properly
   TODO: Style buttons properly
 */
@@ -26,6 +25,12 @@ body {
 .footer .right-links {
   display: flex;
   flex-direction: row;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
