@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /*
-  TODO: Row of .icon/non.icon
   TODO: Row of .header/.close-button
   TODO: Row of .continue/.cancel
   TODO: Bold .header and make text bigger
@@ -28,6 +27,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: row;
 }
 
 .icon {
