@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /*
-  TODO: Align footer properly
   TODO: Align content properly
   TODO: Style links, bullets, header, footer properly
   TODO: Style buttons properly
@@ -14,14 +13,17 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.left-links,
-.right-links {
+.header .left-links,
+.header .right-links,
+.footer .left-links,
+.footer .right-links {
   display: flex;
   flex-direction: row;
 }
