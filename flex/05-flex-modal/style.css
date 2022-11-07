@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /*
-  TODO: Row of .header/.close-button
   TODO: Row of .continue/.cancel
   TODO: Bold .header and make text bigger
   TODO: Margins and padding
@@ -42,6 +41,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.top-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .close-button {
