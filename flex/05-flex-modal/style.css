@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/*
-  TODO: Row of .continue/.cancel
-  TODO: Margins and padding
-*/
-
 html, body {
   height: 100%;
 }
@@ -40,16 +35,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  margin: 16px;
 }
+
 
 .top-elements {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 16px 16px 8px 0px;
 }
 
 .header {
-  font-size: 14pt;
+  font-size: 15pt;
   font-weight: 700;
 }
 
@@ -64,6 +63,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.bottom-elements {
+  margin: 16px 0px;
 }
 
 button {
