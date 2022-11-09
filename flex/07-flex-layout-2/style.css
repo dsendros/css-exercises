@@ -1,6 +1,5 @@
 /*
   TODO: Style footer appropriately
-  TODO: Style sidebar appropriately
   TODO: Style cards appropriately
 */
 
@@ -38,6 +37,20 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.sidebar li {
+  margin: 16px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
 }
 
 .card {
