@@ -1,5 +1,4 @@
 /*
-  TODO: Put sidebar to left of cards
   TODO: Make cards take up space appropriately
   TODO: Style header appropriately
   TODO: Style footer appropriately
@@ -23,6 +22,11 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar {
