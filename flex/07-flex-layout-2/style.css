@@ -1,6 +1,5 @@
 /*
   TODO: Style footer appropriately
-  TODO: Style cards appropriately
 */
 
 body {
@@ -29,11 +28,11 @@ body {
 .content {
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .sidebar {
-  width: 300px;
+  width: 600px;
   background: royalblue;
 }
 
