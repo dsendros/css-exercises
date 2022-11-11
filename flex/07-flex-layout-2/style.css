@@ -28,8 +28,9 @@ body {
 }
 
 .sidebar {
-  width: 600px;
+  width: 300px;
   background: royalblue;
+  flex-shrink: 0;
 }
 
 .sidebar ul {
